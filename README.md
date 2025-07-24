@@ -1,12 +1,42 @@
-# React + Vite
+# 💼 BitPocket
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**BitPocket** is a sleek and interactive crypto wallet dashboard built using **React**, **Vite**, and **Tailwind CSS**.  
+It offers real-time cryptocurrency prices, elegant transaction history, and a mock send/receive interface — all inside a responsive dark UI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🧰 Features
 
-## Expanding the ESLint configuration
+- 💸 Real-time prices via **CoinGecko API**
+- 🪙 Supports: Bitcoin (BTC), Ethereum (ETH), USD Coin (USDC), Aptos (APT)
+- 💼 Beautiful crypto cards with icons and value
+- 📨 **Send Crypto** modal with mock transaction
+- 📃 Interactive transaction history
+- 🔥 Toast notifications
+- 🎨 Modern sidebar & responsive layout
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ⚙️ Tech Stack
+
+| Tool/Library       | Purpose                    |
+|--------------------|----------------------------|
+| React + Vite       | Frontend                   |
+| Tailwind CSS       | Styling                    |
+| Axios              | API calls (CoinGecko)      |
+| React Hot Toast    | Toast notifications        |
+
+---
+
+## 🧑‍💻 Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/Sehar1320/bitpocket.git
+cd bitpocket
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
